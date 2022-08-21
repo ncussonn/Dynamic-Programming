@@ -1,0 +1,115 @@
+Format:
+
+environment
+initial state
+value function sequence
+policy
+convergence time
+
+____________________________
+PART A:
+
+Environment:
+./envs/doorkey-5x5-normal.env
+Initial State:
+(1, 2, 2, 0, 0)
+All Values Converged at time:
+187
+Optimal Policy:
+['TL', 'PK', 'TR', 'UD', 'MF', 'MF', 'TR', 'MF']
+[20.0, 17.0, 16.0, 13.0, 12.0, 9.0, 6.0, 3.0, 0.0]
+
+Environment:
+./envs/doorkey-6x6-normal.env       
+Initial State:
+(2, 4, 0, 0, 0)
+All Values Converged at time:
+182
+Optimal Policy:
+['MF', 'TR', 'PK', 'MF', 'MF', 'MF', 'TR', 'MF', 'UD', 'MF', 'MF', 'TR', 'MF', 'MF', 'MF']
+[41.0, 38.0, 35.0, 34.0, 31.0, 28.0, 25.0, 22.0, 19.0, 18.0, 15.0, 12.0, 9.0, 6.0, 3.0, 0.0]
+
+Environment:
+./envs/doorkey-8x8-normal.env
+Initial State:
+(2, 2, 3, 0, 0)
+All Values Converged at time:
+172
+Optimal Policy:
+['TL', 'MF', 'TR', 'MF', 'MF', 'MF', 'TR', 'PK', 'TR', 'MF', 'MF', 'MF', 'MF', 'TR', 'UD', 'MF', 'MF', 'MF', 'TR', 'MF', 'MF', 'MF', 'MF', 'MF']
+[68.0, 65.0, 62.0, 59.0, 56.0, 53.0, 50.0, 47.0, 46.0, 43.0, 40.0, 37.0, 34.0, 31.0, 28.0, 27.0, 24.0, 21.0, 18.0, 15.0, 12.0, 9.0, 6.0, 3.0, 0.0]
+
+Environment:
+./envs/doorkey-6x6-direct.env
+Initial State:
+(2, 1, 0, 0, 0)
+All Values Converged at time:
+188
+Optimal Policy:
+['TL', 'TL', 'MF', 'MF']
+[12.0, 9.0, 6.0, 3.0, 0.0]
+
+Environment:
+./envs/doorkey-8x8-direct.env
+Initial State:
+(2, 1, 3, 0, 0)
+All Values Converged at time:
+185
+Optimal Policy:
+['TL', 'MF', 'MF', 'MF']
+[12.0, 9.0, 6.0, 3.0, 0.0]
+
+Environment:
+./envs/doorkey-6x6-shortcut.env
+Initial State:
+(2, 1, 0, 0, 0)
+All Values Converged at time:
+188
+Optimal Policy:
+['PK', 'TL', 'TL', 'UD', 'MF', 'MF']
+[14.0, 13.0, 10.0, 7.0, 6.0, 3.0, 0.0]
+
+Environment:
+./envs/doorkey-8x8-shortcut.env
+Initial State:
+(2, 1, 3, 0, 0)
+All Values Converged at time:
+183
+Optimal Policy:
+['MF', 'TR', 'PK', 'TR', 'MF', 'TR', 'MF', 'UD', 'MF', 'MF']
+[26.0, 23.0, 20.0, 19.0, 16.0, 13.0, 10.0, 7.0, 6.0, 3.0, 0.0]
+_______________________________________________________________
+PART B (arbitrary test cases):
+
+Environment:
+./envs/random_envs\DoorKey-8x8_31.pickle
+Initial State:
+(3, 5, 1, 0, 1, 2, 1, 0)
+All Values Converged at time:
+178
+Optimal Policy:
+['TR', 'MF', 'MF', 'TR', 'MF']
+[15.0, 12.0, 9.0, 6.0, 3.0, 0.0]
+
+Environment:
+./envs/random_envs\DoorKey-8x8_20.pickle
+Initial State:
+(3, 5, 1, 0, 0, 1, 1, 0)
+All Values Converged at time:
+178
+Optimal Policy:
+['MF', 'MF', 'TL', 'PK', 'TR', 'MF', 'TR', 'UD', 'MF', 'MF', 'MF', 'TR', 'MF']
+[35.0, 32.0, 29.0, 26.0, 25.0, 22.0, 19.0, 16.0, 15.0, 12.0, 9.0, 6.0, 3.0, 0.0]
+
+Environment:
+./envs/random_envs\DoorKey-8x8_28.pickle
+Initial State:
+(3, 5, 1, 0, 0, 2, 0, 0)
+All Values Converged at time:
+178
+Optimal Policy:
+['MF', 'MF', 'MF', 'MF', 'TL', 'MF', 'PK', 'TL', 'MF', 'MF', 'MF', 'MF', 'TL', 'MF', 'UD', 'MF', 'MF', 'TR', 'MF']    
+[53.0, 50.0, 47.0, 44.0, 41.0, 38.0, 35.0, 34.0, 31.0, 28.0, 25.0, 22.0, 19.0, 16.0, 13.0, 12.0, 9.0, 6.0, 3.0, 0.0] 
+
+
+
